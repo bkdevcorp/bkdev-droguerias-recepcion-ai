@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-10-24",
+  "order": [
+    {
+      "sku": "MED-001",
+      "quantity": 100
+    },
+    {
+      "sku": "MED-002",
+      "quantity": 50
+    }
+  ],
+  "receipt": [
+    {
+      "sku": "MED-001",
+      "lot": "L-A",
+      "quantity": 90,
+      "expiry": "2027-12-31"
+    },
+    {
+      "sku": "MED-002",
+      "lot": "L-B",
+      "quantity": 50,
+      "expiry": "2026-10-01"
+    }
+  ],
+  "documents": [
+    {
+      "id": "F001",
+      "type": "invoice"
+    },
+    {
+      "id": "G001",
+      "type": "delivery_note"
+    },
+    {
+      "id": "C001",
+      "type": "certificate",
+      "sku": "MED-001",
+      "lot": "L-A",
+      "expiry": "2027-12-31"
+    }
+  ]
+}
